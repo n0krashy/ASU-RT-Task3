@@ -1,57 +1,58 @@
-.navbar{
+.navbar {
     padding: 0 10% 0 10%;
 }
 
-.rows{
+.rows {
     padding: 10%;
 }
 
 @media screen and (max-device-width: 480px) {
-    .rows{
+    .rows {
         padding: 0%;
     }
 }
 
-.GreyT{
+.GreyT {
     color: darkgrey;
     font-size: 14px;
 }
-#logoh{
+
+#logoh {
     width: auto;
     height: 25px;
 }
 
-.headings{
+.headings {
     font-size: 28px;
     font-family: sans-serif;
 }
 
-.topHeadings{
+.topHeadings {
     margin: -9px 0 -9px 0;
 }
 
-hr{
+hr {
     background-color: #FF8B38;
     width: 50px;
     margin-left: 0px;
     margin-top: 25px;
 }
 
-#topHr{
+#topHr {
     background-color: white;
 }
 
-.r2{
+.r2 {
     background: url("IMAGES/image.png") no-repeat;
-    background-size:auto;
+    background-size: auto;
 }
 
-#logo2{
+#logo2 {
     margin-bottom: 20px;
 }
 
-.downloadB{
-    background:none;
+.downloadB {
+    background: none;
     border-color: white;
     border-style: ridge;
     color: white;
@@ -63,7 +64,7 @@ hr{
     margin-top: 20px;
 }
 
-.orangeB{
+.orangeB {
     border: none;
     color: white;
     font-weight: bold;
@@ -73,15 +74,15 @@ hr{
     font-size: 12px;
 }
 
-.orangeColor{
+.orangeColor {
     color: #FE8B41;
 }
 
-.orangeBackground{
-    background:#FE8B41;
+.orangeBackground {
+    background: #FE8B41;
 }
 
-.orangeTab{
+.orangeTab {
     border: none;
     color: white;
     font-weight: bold;
@@ -91,8 +92,8 @@ hr{
     font-size: 12px;
 }
 
-.greyTab{
-    background:#363636;
+.greyTab {
+    background: #363636;
     border: none;
     color: white;
     font-weight: bold;
@@ -103,53 +104,60 @@ hr{
     font-size: 12px;
 }
 
-.pearlRow{
+.circleIcons {
+    border-radius: 60px;
+    border: 0.1rem solid #FE8B41;
+    padding: 1em;
+}
+
+.pearlRow {
     background-color: #F5F5F5;
 }
 
-#s1{
-    color:#FE8B41;
+#s1 {
+    color: #FE8B41;
 }
 
-.r21{
+.r21 {
     background-color: #F5F5F5;
     padding: 4%;
     height: 45px;
     font-weight: bold;
 }
 
-.r22{
+.r22 {
     background-color: white;
     padding: 10%;
     height: 210px;
 }
 
-.r23{
+.r23 {
     color: white;
     height: 45px;
     padding: 4%;
 }
 
-.padding-0{
-    padding-right:0;
-    padding-left:0;
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
 }
 
-.noPaddingLeft{
+.noPaddingLeft {
     padding-left: 0px;
 }
-.sideImages{
+
+.sideImages {
     max-width: 100%;
     max-height: 100%;
     height: auto;
 
 }
 
-.center{
+.center {
     margin: 0 auto;
 }
 
-.i{
+.i {
     border: none;
     border-bottom-style: solid;
     border-bottom-color: #eee;
@@ -161,37 +169,40 @@ hr{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #cccccc
 }
+
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #cccccc
+    color: #cccccc
 }
+
 :-ms-input-placeholder { /* IE 10+ */
-  color: #cccccc
+    color: #cccccc
 }
 
 /*------------r2-----------*/
 
-.footer{
+.footer {
     padding: 1% 10% 0 10%;
     border-bottom: thin solid darkgrey;
 }
 
-.blackHeadings{
+.blackHeadings {
     font-weight: bold;
 }
 
-#socialMedia{
+#socialMedia {
     margin-bottom: 0px;
 }
 
-.icons{
+.icons {
     color: #C1C1C1;
     margin: 2% 0 0 0;
 }
 
-.white{
+.white {
     color: white;
 }
-.r12{
+
+.r12 {
     background-color: black;
     color: darkgrey;
     font-size: 11px;
