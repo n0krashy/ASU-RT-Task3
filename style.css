@@ -6,6 +6,12 @@
     padding: 10%;
 }
 
+@media screen and (max-device-width: 480px) {
+    .rows{
+        padding: 0%;
+    }
+}
+
 .GreyT{
     color: darkgrey;
     font-size: 14px;
@@ -15,20 +21,25 @@
     height: 25px;
 }
 
-.whiteHeadings{
-    color: white;
+.headings{
     font-size: 28px;
     font-family: sans-serif;
+}
+
+.topHeadings{
     margin: -9px 0 -9px 0;
 }
 
 hr{
-    border: 1px inset white;
+    background-color: #FF8B38;
     width: 50px;
     margin-left: 0px;
     margin-top: 25px;
 }
 
+#topHr{
+    background-color: white;
+}
 
 .r2{
     background: url("IMAGES/image.png") no-repeat;
@@ -52,8 +63,52 @@ hr{
     margin-top: 20px;
 }
 
+.orangeB{
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.orangeColor{
+    color: #FE8B41;
+}
+
+.orangeBackground{
+    background:#FE8B41;
+}
+
+.orangeTab{
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.greyTab{
+    background:#363636;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 1px;
+    padding: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.pearlRow{
+    background-color: #F5F5F5;
+}
+
 #s1{
-    color: #ff9900;
+    color:#FE8B41;
 }
 
 .r21{
@@ -70,7 +125,6 @@ hr{
 }
 
 .r23{
-    background-color: #ff9933;
     color: white;
     height: 45px;
     padding: 4%;
@@ -79,6 +133,20 @@ hr{
 .padding-0{
     padding-right:0;
     padding-left:0;
+}
+
+.noPaddingLeft{
+    padding-left: 0px;
+}
+.sideImages{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+
+}
+
+.center{
+    margin: 0 auto;
 }
 
 .i{
@@ -116,10 +184,13 @@ hr{
 }
 
 .icons{
-    color:darkgrey;
+    color: #C1C1C1;
     margin: 2% 0 0 0;
 }
 
+.white{
+    color: white;
+}
 .r12{
     background-color: black;
     color: darkgrey;
