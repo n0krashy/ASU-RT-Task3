@@ -3,7 +3,7 @@
 }
 
 .rows {
-    padding: 10%;
+    padding: 9%;
 }
 
 @media screen and (max-device-width: 480px) {
@@ -38,12 +38,17 @@ hr {
     margin-top: 25px;
 }
 
-#topHr {
+.whiteHr {
     background-color: white;
 }
 
-.r2 {
+#r2 {
     background: url("IMAGES/image.png") no-repeat;
+    background-size: auto;
+}
+
+#r10 {
+    background: url("IMAGES/u25_state0.png") no-repeat;
     background-size: auto;
 }
 
